@@ -1,0 +1,9 @@
+# AI Agent Outputs
+outputs/
+*.log
+.DS_Store
+.vscode/
+node_modules/
+.agent_hooks/
+.psiphon_data/
+todo.md
