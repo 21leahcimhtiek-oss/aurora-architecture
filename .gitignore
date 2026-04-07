@@ -7,3 +7,7 @@ node_modules/
 .agent_hooks/
 .psiphon_data/
 todo.md
+
+# aurora-cli build artifacts
+aurora-cli/dist/
+aurora-cli/node_modules/

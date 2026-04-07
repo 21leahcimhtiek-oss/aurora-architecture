@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "aurora.ecosystem.schema.json",
+  "title": "Aurora Ecosystem Manifest",
+  "type": "object",
+  "required": ["version"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Manifest schema version"
+    },
+    "repos": {
+      "type": "array",
+      "description": "Registered repositories",
+      "items": {
+        "type": "object",
+        "required": ["name", "path"],
+        "properties": {
+          "name": { "type": "string" },
+          "path": { "type": "string" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "integrations": {
+      "type": "object",
+      "description": "External service integrations",
+      "properties": {
+        "networkSolutions": {
+          "type": "object",
+          "required": ["command", "accountEnvVar"],
+          "properties": {
+            "command": {
+              "type": "string",
+              "description": "Command to invoke the Network Solutions integration script"
+            },
+            "accountEnvVar": {
+              "type": "string",
+              "description": "Environment variable name holding the account identifier"
+            },
+            "siteEnvVar": {
+              "type": "string",
+              "description": "Environment variable name holding the site/domain identifier"
+            },
+            "requiredEnvVars": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Environment variables required before running any network command"
+            }
+          }
+        },
+        "wordpress": {
+          "type": "object",
+          "required": ["command", "siteEnvVar"],
+          "properties": {
+            "command": {
+              "type": "string",
+              "description": "Command to invoke the WordPress integration script"
+            },
+            "siteEnvVar": {
+              "type": "string",
+              "description": "Environment variable name holding the WordPress site URL"
+            },
+            "accountEnvVar": {
+              "type": "string",
+              "description": "Environment variable name holding the WordPress account/username"
+            },
+            "requiredEnvVars": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Environment variables required before running any wordpress command"
+            }
+          }
+        },
+        "copilot": {
+          "type": "object",
+          "properties": {
+            "command": {
+              "type": "string",
+              "description": "Override command for copilot integration (defaults to gh copilot)"
+            },
+            "requiredEnvVars": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Additional environment variables required for copilot integration"
+            }
+          }
+        }
+      }
+    }
+  }
+}

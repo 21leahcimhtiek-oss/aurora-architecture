@@ -1,0 +1,27 @@
+{
+  "name": "aurora-cli",
+  "version": "1.0.0",
+  "description": "Aurora — unified CLI brainstem for autonomous multi-agent operations",
+  "main": "dist/index.js",
+  "bin": {
+    "aurora": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["aurora", "cli", "multi-agent", "devops"],
+  "author": "21leahcimhtiek-oss",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "execa": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}
