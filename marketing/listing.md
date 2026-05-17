@@ -1,37 +1,22 @@
-# Aurora Market Listing: A Ur Or A A Rc Hi Te Ct Ur E
+# Aurora Rayes Architecture Listing Notes
 
-## Listing Metadata
+## Metadata
 
-\\\json
+```json
 {
   "slug": "aurora-architecture",
-  "title": "A Ur Or A A Rc Hi Te Ct Ur E",
-  "tagline": "Production-ready A Ur Or A A Rc Hi Te Ct Ur E for the Aurora ecosystem",
-  "category": "saas",
-  "price": 9,
-  "currency": "usd",
-  "tags": ["saas", "ai", "typescript", "nextjs", "production-ready"],
-  "featured": false,
-  "url": "https://auroramarket.org/products/aurora-architecture",
+  "title": "Aurora Rayes Architecture",
+  "tagline": "Internal operating model for the Aurora Rayes product ecosystem",
+  "category": "internal enablement",
+  "tags": ["aurora-rayes", "architecture", "agents", "operations"],
   "repo": "https://github.com/21leahcimhtiek-oss/aurora-architecture"
 }
-\\\
+```
 
 ## Description
 
-A Ur Or A A Rc Hi Te Ct Ur E is a production-ready SaaS application built for the Aurora ecosystem. It comes with full source code, comprehensive documentation, and Aurora Market support.
-
-## Screenshots
-
-> Add screenshots to \/marketing/screenshots/\ directory
+Aurora Rayes Architecture is internal ecosystem documentation for orchestration, domain agents, governance, and operational readiness. It should support partner conversations and implementation planning without making direct monetization claims.
 
 ## Demo
 
-> Add demo URL here
-
-## Changelog
-
-See [CHANGELOG.md](../CHANGELOG.md)
-
----
-*Listed on [auroramarket.org](https://auroramarket.org)*
+Internal documentation only. Do not add public checkout links.

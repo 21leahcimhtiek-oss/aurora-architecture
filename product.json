@@ -1,16 +1,25 @@
 {
   "id": "aurora-architecture",
-  "name": "Aurora Architecture",
-  "tagline": "AI-powered productivity solution",
-  "description": "AI-powered aurora-architecture application built for Aurora Market. Modern, responsive design with SaaS monetization.",
-  "category": "productivity",
-  "tags": ["ai", "productivity"],
+  "name": "Aurora Rayes Architecture",
+  "tagline": "Internal operating model for the Aurora Rayes product ecosystem",
+  "description": "Internal Aurora Rayes architecture documentation for agent orchestration, governance, deployments, recovery, and operational readiness.",
+  "category": "internal enablement",
+  "tags": [
+    "aurora-rayes",
+    "architecture",
+    "agents",
+    "operations"
+  ],
   "url": "https://auroramarket.org/aurora-architecture",
   "demo": "https://21leahcimhtiek-oss.github.io/aurora-architecture",
   "repo": "https://github.com/21leahcimhtiek-oss/aurora-architecture",
-  "stack": ["TypeScript", "Next.js", "React"],
+  "stack": [
+    "Documentation",
+    "Agent Operations",
+    "Architecture"
+  ],
   "status": "mvp",
   "version": "1.0.0",
   "author": "Aurora Rayes LLC",
-  "license": "MIT"
+  "license": "Private"
 }

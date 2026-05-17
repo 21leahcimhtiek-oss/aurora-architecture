@@ -1,6 +1,6 @@
 # Mapping to Current Reality
 
-How Aurora's architecture maps to Keith's existing tools, repos, and workflows.
+How Aurora Rayes architecture maps to existing tools, repositories, and operational workflows.
 
 ---
 
@@ -20,7 +20,7 @@ The current SuperNinja agent becomes the **Aurora-Orchestrator** plus a thin int
 
 ## SOPs → Domain Agents / Playbooks
 
-Every Standard Operating Procedure Keith has been building is a candidate **domain agent** or **playbook** within an agent. SOPs that describe recurring multi-step processes become agent logic. SOPs that describe one-off or emergency procedures become playbooks consumed by the Recovery-Agent or Diagnostics-Agent.
+Every Standard Operating Procedure in the Aurora Rayes operating model is a candidate **domain agent** or **playbook** within an agent. SOPs that describe recurring multi-step processes become agent logic. SOPs that describe one-off or emergency procedures become playbooks consumed by the Recovery-Agent or Diagnostics-Agent.
 
 | SOP Type | Aurora Target |
 |---|---|
