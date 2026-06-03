@@ -1,10 +1,12 @@
 {
   "bundles": [
     {
-      "id": "aurora-market-bundle",
-      "name": "Aurora Market Bundle",
-      "description": "Complete Aurora Market application suite",
-      "apps": ["aurora-architecture"],
+      "id": "aurora-rayes-operations-bundle",
+      "name": "Aurora Rayes Operations Bundle",
+      "description": "Internal Aurora Rayes operations and architecture documentation set",
+      "apps": [
+        "aurora-architecture"
+      ],
       "discount_percent": 20
     }
   ]

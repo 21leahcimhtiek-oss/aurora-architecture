@@ -1,5 +1,15 @@
 {
   "id": "aurora-architecture",
+  "name": "Aurora Rayes Architecture",
+  "tagline": "Internal operating model for the Aurora Rayes product ecosystem",
+  "description": "Internal Aurora Rayes architecture documentation for agent orchestration, governance, deployments, recovery, and operational readiness.",
+  "category": "internal enablement",
+  "tags": [
+    "aurora-rayes",
+    "architecture",
+    "agents",
+    "operations"
+  ],
   "name": "Aurora Architecture",
   "tagline": "AI-powered productivity solution",
   "description": "Part of the Aurora ecosystem, aurora-architecture delivers a no-key-first AI experience.",
@@ -8,9 +18,14 @@
   "url": "https://auroramarket.org/aurora-architecture",
   "demo": "https://21leahcimhtiek-oss.github.io/aurora-architecture",
   "repo": "https://github.com/21leahcimhtiek-oss/aurora-architecture",
-  "stack": ["TypeScript", "Next.js", "React"],
+  "stack": [
+    "Documentation",
+    "Agent Operations",
+    "Architecture"
+  ],
   "status": "mvp",
   "version": "1.0.0",
   "author": "Aurora Rayes LLC",
+  "license": "Private"
   "license": "MIT"
 }
