@@ -1,7 +1,7 @@
 {
   "name": "aurora-cli",
   "version": "1.0.0",
-  "description": "Aurora — unified CLI brainstem for autonomous multi-agent operations",
+  "description": "Part of the Aurora ecosystem, aurora-architecture delivers a no-key-first AI experience.",
   "main": "dist/index.js",
   "bin": {
     "aurora": "dist/index.js"
@@ -25,3 +25,4 @@
     "typescript": "^5.4.0"
   }
 }
+

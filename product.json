@@ -10,6 +10,11 @@
     "agents",
     "operations"
   ],
+  "name": "Aurora Architecture",
+  "tagline": "AI-powered productivity solution",
+  "description": "Part of the Aurora ecosystem, aurora-architecture delivers a no-key-first AI experience.",
+  "category": "productivity",
+  "tags": ["ai", "productivity"],
   "url": "https://auroramarket.org/aurora-architecture",
   "demo": "https://21leahcimhtiek-oss.github.io/aurora-architecture",
   "repo": "https://github.com/21leahcimhtiek-oss/aurora-architecture",
@@ -22,4 +27,5 @@
   "version": "1.0.0",
   "author": "Aurora Rayes LLC",
   "license": "Private"
+  "license": "MIT"
 }
